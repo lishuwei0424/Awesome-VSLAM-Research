@@ -5,8 +5,8 @@
 1. ORB-SLAM2算法:  源码及其改进；
 2. Line-SLAM：paper及其源码；
 3. 经典SLAM算法： 经典、优秀的开源工程 ；
-4.  科研工具 ：论文或实验用到的一些工具；
-5.  优秀作者和实验室：自己感兴趣的大佬和实验室；
+4. 科研工具 ：论文或实验用到的一些工具；
+5. 优秀作者和实验室：自己感兴趣的大佬和实验室；
 6. 学习材料：入门学习SLAM学习资料；
 7. SLAM、三维重建相关资源：常用的 Github 仓库，如何找论文；
 8. SLAM应用和企业:包含SLAM的应用，及其招聘公司的公司（名单可能不完善）；
@@ -25,13 +25,18 @@
 ##### 1. 加入点线特征
 
 * **paper**:https://github.com/atlas-jj/ORB_Line_SLAM （线）
+
 * **paper**:https://github.com/maxee1900/RGBD-PL-SLAM （点线）
+
 * **paper**: [PL-SLAM: a Stereo SLAM System through the Combination of Points and Line Segments](http://mapir.isa.uma.es/mapirwebsite/index.php/people/164-ruben-gomez)
 
   **code**: https://github.com/rubengooj/pl-slam
-*  https://github.com/lanyouzibetty/ORB-SLAM2_with_line 
-*  https://github.com/maxee1900/RGBD-PL-SLAM (RGBD-SLAM with Point and Line Features, developed based on the famous ORB_SLAM2)
-*  https://github.com/yan-lu/LineSLAM 
+
+* https://github.com/lanyouzibetty/ORB-SLAM2_with_line 
+
+* https://github.com/maxee1900/RGBD-PL-SLAM (RGBD-SLAM with Point and Line Features, developed based on the famous ORB_SLAM2)
+
+* https://github.com/yan-lu/LineSLAM 
 
 ##### 2. 加入IMU
 
@@ -105,13 +110,13 @@
 
 * **paper**: Gomez-Ojeda R , Briales J , Gonzalez-Jimenez J . [PL-SVO: Semi-direct Monocular Visual Odometry by combining points and line segments]( http://mapir.isa.uma.es/rgomez/publications/iros16plsvo.pdf )[C]// IEEE/RSJ International Conference on Intelligent Robots & Systems. IEEE, 2016. 
 
-   **code**：https://github.com/rubengooj/pl-svo 
+  **code**：https://github.com/rubengooj/pl-svo 
 
 * **paper**: Gomez-Ojeda R , Gonzalez-Jimenez J . [Robust stereo visual odometry through a probabilistic combination of points and line segments]( http://ieeexplore.ieee.org/document/7487406/ )[C]// 2016 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2016. 
 
 * **paper**: [PL-SLAM: a Stereo SLAM System through the Combination of Points and Line Segments](http://mapir.isa.uma.es/mapirwebsite/index.php/people/164-ruben-gomez)
 
-   **code**: https://github.com/rubengooj/pl-slam
+  **code**: https://github.com/rubengooj/pl-slam
 
 #### 三、经典SLAM系统
 
@@ -409,11 +414,11 @@
 #####  4.19  其他实验室和大牛补充
 
 * https://blog.csdn.net/qq_15698613/article/details/84871119 
-*  https://blog.csdn.net/electech6/article/details/94590781?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task 
+* https://blog.csdn.net/electech6/article/details/94590781?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task 
 * https://blog.csdn.net/carson2005/article/details/6601109?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task 
-*  https://www.zhihu.com/question/332075078/answer/738194144 
-*  https://www.zhihu.com/question/332075078/answer/734910130 
-*  http://bbs.cvmart.net/topics/481/outstanding-Computer-Vision-Team 
+* https://www.zhihu.com/question/332075078/answer/738194144 
+* https://www.zhihu.com/question/332075078/answer/734910130 
+* http://bbs.cvmart.net/topics/481/outstanding-Computer-Vision-Team 
 
 
 
@@ -421,7 +426,7 @@
 
 图为曹秀洁师姐（北航博士）整理
 
-![image-20200331175638848](.\doc\知识体系-曹秀洁师姐.png)
+![image-20200331175638848](.\doc\SLAM.png)
 
 ##### 5.1  Linux
 
@@ -438,10 +443,10 @@
 
 - 《鸟哥的Linux私房菜》
 
-    ##### 5.2  ROS
+  ##### 5.2  ROS
 
 *  http://wiki.ros.org/ROS/Tutorials（重要）
-* http://www.guyuehome.com/ （古月居）  
+*  http://www.guyuehome.com/ （古月居）  
 
 ##### 5.3 **Shell**
 
@@ -511,7 +516,7 @@ https://link.zhihu.com/?target=http%3A//www.tldp.org/LDP/abs/html/
 
 - Git官方文档：
 
-   https://docs.gitlab.com/ee/README.html
+  https://docs.gitlab.com/ee/README.html
 
 - Git-book：
 
@@ -573,9 +578,10 @@ https://link.zhihu.com/?target=http%3A//www.tldp.org/LDP/abs/html/
 - Effective C++
 
 - C++标准库
+
 - 视频：程序设计实习  https://space.bilibili.com/447579002/favlist?fid=758303502&ftype=create  
 
-   #####  5.11  计算机基础
+  #####  5.11  计算机基础
 
 xmind for computer science course 
 
@@ -693,25 +699,32 @@ https://github.com/lishuwei0424/xmind_for_cs_basics
 
 百度脑图：https://naotu.baidu.com/file/edf7d340203d40d9abc65e59596e0ad5?token=2eafad7bf90fd163
 
+<<<<<<< HEAD
+
+- ![img](./doc/paper.png)
+  =======
+
 - ![img](.\doc\如何找论文.png)
+
+>>>>>>> e8759780efb6199891e94089884cadc2ad26cf44
 
 #### 八、SLAM应用和企业
 
 ​      8.1 图来之崔大佬整理
 
-- ![img](.\doc\SLAM应用前景.png)    
+- ![img](.\doc\SLAM-app.png)    
 
   8.2 图来之六哥整理（公众号：计算机视觉life）
 
   百度脑图： https://naotu.baidu.com/file/1b084951927b765ba0584743bfaa9ac4?token=7f67de64501c0884 
 
-![img](.\doc\SLAM相关企业.PNG)
+![img](.\doc\SLAM-company.PNG)
 
 #### 九、工作面经
 
-*  https://github.com/nebula-beta/SLAM-Jobs 
+* https://github.com/nebula-beta/SLAM-Jobs 
 
-*  [视觉SLAM方向找工作经历](https://www.cnblogs.com/xtl9/p/8053331.html)  https://www.cnblogs.com/xtl9/p/8053331.html 
+* [视觉SLAM方向找工作经历](https://www.cnblogs.com/xtl9/p/8053331.html)  https://www.cnblogs.com/xtl9/p/8053331.html 
 
 * 【泡泡机器人成员原创-SLAM求职宝典】SLAM求职经验帖 https://zhuanlan.zhihu.com/p/28565563 
 
@@ -723,13 +736,13 @@ https://github.com/lishuwei0424/xmind_for_cs_basics
 
 * [SLAM常见面试题（一）](https://zhuanlan.zhihu.com/p/46694678)
 
-*  [ 3D Vision、SLAM求职宝典 | SLAM知识篇（D1，重点 ）](https://blog.csdn.net/weixin_43795395/article/details/89914667) 
+* [ 3D Vision、SLAM求职宝典 | SLAM知识篇（D1，重点 ）](https://blog.csdn.net/weixin_43795395/article/details/89914667) 
 
-*  [3D Vision、SLAM求职宝典 | SLAM知识篇（D2）](https://blog.csdn.net/weixin_43795395/article/details/89916031)   
+* [3D Vision、SLAM求职宝典 | SLAM知识篇（D2）](https://blog.csdn.net/weixin_43795395/article/details/89916031)   
 
-*  [3D Vision、SLAM求职宝典 | SLAM知识篇（D3）](https://blog.csdn.net/weixin_43795395/article/details/89916068) 
+* [3D Vision、SLAM求职宝典 | SLAM知识篇（D3）](https://blog.csdn.net/weixin_43795395/article/details/89916068) 
 
-*   [CS PhD的SLAM/无人车求职小结](https://zhuanlan.zhihu.com/p/35348586) 
+* [CS PhD的SLAM/无人车求职小结](https://zhuanlan.zhihu.com/p/35348586) 
 
   不断更新
 
