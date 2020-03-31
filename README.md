@@ -667,8 +667,6 @@ https://github.com/lishuwei0424/xmind_for_cs_basics
 
   ![img](.\doc\way of my study.png) 
 
-  
-
 #### 七、SLAM、三维重建相关资源
 
 ##### 7.1.常用的GitHub地址
@@ -698,27 +696,19 @@ https://github.com/lishuwei0424/xmind_for_cs_basics
 #####  7.2.找论文图（SLAM研学社）
 
 百度脑图：https://naotu.baidu.com/file/edf7d340203d40d9abc65e59596e0ad5?token=2eafad7bf90fd163
-
-<<<<<<< HEAD
-
-- ![img](./doc/paper.png)
-  =======
-
-- ![img](.\doc\如何找论文.png)
-
->>>>>>> e8759780efb6199891e94089884cadc2ad26cf44
+![img](./doc/paper.png)
 
 #### 八、SLAM应用和企业
 
 ​      8.1 图来之崔大佬整理
 
-- ![img](.\doc\SLAM-app.png)    
+ ![img](.\doc\SLAM-app.png)    
 
   8.2 图来之六哥整理（公众号：计算机视觉life）
 
   百度脑图： https://naotu.baidu.com/file/1b084951927b765ba0584743bfaa9ac4?token=7f67de64501c0884 
 
-![img](.\doc\SLAM-company.PNG)
+![img](.\doc\SLAM-company.png)
 
 #### 九、工作面经
 
