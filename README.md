@@ -426,7 +426,7 @@
 
 图为曹秀洁师姐（北航博士）整理
 
-![image-20200331175638848](.\doc\SLAM.png)
+![image-20200331175638848](./doc/SLAM.png)
 
 ##### 5.1  Linux
 
@@ -665,7 +665,7 @@ https://github.com/lishuwei0424/xmind_for_cs_basics
 
 - 自己学习途径
 
-  ![img](.\doc\way of my study.png) 
+  ![img](./doc/way of my study.png) 
 
 #### 七、SLAM、三维重建相关资源
 
@@ -703,14 +703,15 @@ https://github.com/lishuwei0424/xmind_for_cs_basics
 
 ​      8.1 图来之崔大佬整理
 
- ![img](.\doc\SLAM-app.png)    
+ ![img](./doc/SLAM-app.png)  
+ 
 
   8.2 图来之六哥整理（公众号：计算机视觉life）
 
   百度脑图： https://naotu.baidu.com/file/1b084951927b765ba0584743bfaa9ac4?token=7f67de64501c0884 
   
 
-![img](.\doc\SLAM-company.png)
+![img](./doc/SLAM-company.png)
 
 #### 九、工作面经
 
