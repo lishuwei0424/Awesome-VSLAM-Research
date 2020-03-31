@@ -1,6 +1,3 @@
-[toc]
-[toc]
-
 本人研究方向是视觉SLAM，针对感兴趣的内容进行总结：
 
 1. ORB-SLAM2算法:  源码及其改进；
@@ -12,7 +9,85 @@
 7. SLAM、三维重建相关资源：常用的 Github 仓库，如何找论文；
 8. SLAM应用和企业:包含SLAM的应用，及其招聘公司的公司（名单可能不完善）；
 9. 工作面试：包含SLAM算法面试的时候准备经验；
+### 目录
+<!-- TOC -->
+[一、ORB SLAM及其改进](#一orb-slam及其改进)
+- [1. 加入点线特征](#1-加入点线特征)    
+ - [2. 加入IMU](#2-加入imu)  
+  - [3. 加入wheel Odometer](#3-加入wheel-odometer)   
+  - [4. 改进直接法](#4-改进直接法)   
+   - [5. 加入Odometer和gyro](#5-加入odometer和gyro)  
+   - [6. ORB-SLAM2 + 目标检测/分割的方案语义建图](#6-orb-slam2--目标检测分割的方案语义建图) 
+   - [7. 增加鱼眼相机模型](#7-增加鱼眼相机模型)   
+   - [8. 其他的改变](#8-其他的改变)  
+ 
+ [二、line-SLAM](#二line-slam)
+ 
+ [三、经典SLAM系统](#三经典slam系统) 
+   - [3.1 VSLAM](#31-vslam)     
+     - [1. PTAM](#1-ptam)    
+     - [2. S-PTAM（双目 PTAM）](#2-s-ptam双目-ptam)      
+     - [3. MonoSLAM](#3-monoslam)      
+     - [4. ORB-SLAM2](#4-orb-slam2)      
+     - [5. DSO](#5-dso)  
+     - [6. LDSO](#6-ldso)      
+     - [7. LSD-SLAM](#7-lsd-slam)       
+     - [8. DVO-SLAM](#8-dvo-slam)
+     - [9. SVO](#9-svo)     
+     - [10. openvslam](#10-openvslam)   
+   - [3.2   VIO](#32---vio)       
+     - [1. msckf_vio](#1-msckf_vio)      
+     - [2. rovio](#2-rovio)        
+     - [3. R-VIO](#3-r-vio)       
+     - [4. okvis](#4-okvis)        
+     - [5. VIORB](#5-viorb)       
+     - [6. VINS-mono](#6-vins-mono)        
+     - [7. VINS-RGBD](#7-vins-rgbd)      
+     - [8. Open-VINS](#8-open-vins)   
 
+   [四、优秀作者与实验室](#四优秀作者与实验室)    
+   - [4.1 **Julian Straub MIT,facebook VR 实验室**](#41-julian-straub-mitfacebook-vr-实验室)    
+   - [4.2 **牛津大学 Duncan Frost（PTAM 课题组）**](#42-牛津大学-duncan-frostptam-课题组)     
+   - [4.3 **Yoshikatsu NAKAJIMA (中島 由勝)**](#43-yoshikatsu-nakajima-中島-由勝)     
+   - [4.4 **Alejo Concha（苏黎世Oculus VR）**](#44-alejo-concha苏黎世oculus-vr)     
+   - [4.5 **波兹南理工大学移动机器人实验室**](#45-波兹南理工大学移动机器人实验室)     
+   - [4.6  **Xiaohu Lu**](#46--xiaohu-lu)     
+   - [4.7 **澳大利亚机器人视觉中心 Yasir Latif**](#47-澳大利亚机器人视觉中心-yasir-latif)     
+   - [4.8 **西班牙马拉加大学博士生：RubénGómezOjeda**](#48-西班牙马拉加大学博士生rubéngómezojeda)     
+   - [4.9**法国运输，规划和网络科学与技术研究所博士：Nicolas Antigny**](#49法国运输规划和网络科学与技术研究所博士nicolas-antigny)     
+   - [4.10 **三星 AI 实验室（莫斯科）：Alexander Vakhitov**](#410-三星-ai-实验室莫斯科alexander-vakhitov)     
+   - [4.11 **苏黎世联邦理工学院计算机视觉与几何实验室：Prof. Marc Pollefeys**](#411-苏黎世联邦理工学院计算机视觉与几何实验室prof-marc-pollefeys)    
+   - [4.12 **香港中文大学机器人、感知与 AI 实验室**](#412-香港中文大学机器人感知与-ai-实验室)     
+   - [4.13 **微软高级工程师、苏黎世联邦理工：Johannes L. Schönberger**](#413-微软高级工程师苏黎世联邦理工johannes-l-schönberger)     
+   - [4.14  **美国犹他大学计算机学院：Srikumar Ramalingam**](#414--美国犹他大学计算机学院srikumar-ramalingam)     
+   - [4.15 **德国马克斯普朗克智能系统研究所：Jörg Stückler**](#415-德国马克斯普朗克智能系统研究所jörg-stückler)     
+   - [4.16  **麻省理工学院航空航天控制实验室**](#416--麻省理工学院航空航天控制实验室)     
+   - [4.17 **约翰·霍普金斯大学计算机系博士 Long Qian**](#417-约翰·霍普金斯大学计算机系博士-long-qian)     
+   - [4.18 **佐治亚理工学院机器人与机器智能研究所**](#418-佐治亚理工学院机器人与机器智能研究所)     
+   - [4.19  其他实验室和大牛补充](#419--其他实验室和大牛补充) -  
+
+   [五、科研工具](#五科研工具)     
+   - [5.1  Linux](#51--linux)     
+   - [5.3 **Shell**](#53-shell)     
+   - [5.4  Vim](#54--vim)     
+   - [5.5 Cmake](#55-cmake)     
+   - [5.6  Git&Github](#56--gitgithub)    
+   - [5.7 **GDB**](#57-gdb)     
+   - [5.8 pangolin](#58-pangolin)     
+   - [5.10 C++](#510-c) - 
+   
+   [六、学习材料](#六学习材料) - 
+   
+   [七、SLAM、三维重建相关资源](#七slam三维重建相关资源)     
+   - [7.1.常用的GitHub地址](#71常用的github地址)    
+   - [7.2.找论文图（SLAM研学社）](#72找论文图slam研学社) - 
+   
+   [八、SLAM应用和企业](#八slam应用和企业) - 
+   
+   [九、工作面经](#九工作面经) - 
+
+   [十、主要参考](#十主要参考)
+   <!-- /TOC -->
 #### 一、ORB SLAM及其改进
 
 ​    paper: [**ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras**](  https://128.84.21.199/pdf/1610.06475.pdf  )
