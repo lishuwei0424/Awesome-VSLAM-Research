@@ -772,7 +772,6 @@ https://github.com/lishuwei0424/xmind_for_cs_basics
 #####  7.2.找论文图（SLAM研学社）
 
 百度脑图：https://naotu.baidu.com/file/edf7d340203d40d9abc65e59596e0ad5?token=2eafad7bf90fd163
-
 ![img](./doc/paper.png)
 
 #### 八、SLAM应用和企业
