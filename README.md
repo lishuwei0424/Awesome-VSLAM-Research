@@ -19,8 +19,10 @@
    - [5. 加入Odometer和gyro](#5-加入odometer和gyro)  
    - [6. ORB-SLAM2 + 目标检测/分割的方案语义建图](#6-orb-slam2--目标检测分割的方案语义建图) 
    - [7. 增加鱼眼相机模型](#7-增加鱼眼相机模型)   
-   - [8. 其他的改变](#8-其他的改变)  
- 
+   - [8. 动态环境](#8-动态环境)
+   - [9. 其他的改变](#9-其他的改变)   
+
+   
  [二、line-SLAM](#二line-slam)
  
  [三、经典SLAM系统](#三经典slam系统) 
@@ -155,8 +157,9 @@
 ##### 7. 增加鱼眼相机模型
 
 * [Fisheye-ORB-SLAM, A real-time robust monocular visual SLAM system based on ORB-SLAM for fisheye cameras, without rectifying or cropping the input images](https://github.com/lsyads/fisheye-ORB-SLAM)
-
-##### 8. 其他的改变
+##### 8. 动态环境
+* https://github.com/Horacehxw/Dynamic_ORB_SLAM2
+##### 9. 其他的改变
 
 * [ORBSLAM2_with_pointcloud_map](https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map)
 
