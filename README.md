@@ -825,6 +825,6 @@ https://github.com/lishuwei0424/xmind_for_cs_basics
 
 3.计算机视觉life　　
 补：
-![img](./doc/SLAM学习资源树.jpeg)
+![img](SLAM学习资源树.jpeg)
 
 
